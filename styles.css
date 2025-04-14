@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+body{
+    background-color: #f2f9f8;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 40px;
+    padding: 50px;
+}
+p{
+    font-size: 18px;
+    margin: 10px 0;
+}
+#actionButton{
+    display: block;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#actionButton:hover{
+    background-color: #45a049;
+}
+#actionButton:active{
+    background-color: #3e8e41;
+}
+#instructions{
+    font-size: 16px;
+    margin: 30px;
+    text-align: left;
+    color: #000000;
+}
+h2{
+    font-size: 20px;
+    margin: 20px 0;
+    color: #000000;
+}
+h3{
+    font-size: 18px;
+    margin: 15px 5px;
+    color: #000000;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    margin: 15px;
+    font-size: 16px;
+    color: #000000;
+}
