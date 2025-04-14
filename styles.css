@@ -74,3 +74,12 @@ li{
     font-size: 16px;
     color: #000000;
 }
+img {
+    width: 250px; 
+    height: auto; 
+    border-radius: 10px; 
+}
+#specificImage {
+    width: 150px;
+    height: 500px;
+    object-fit: cover; 
