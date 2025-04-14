@@ -14,13 +14,13 @@
         <p>Đây là thiết lập cơ bản của dự án do Tom thực hiện.</p>
         <button id="actionButton">Nhấn vào tôi</button>
         <div id="membersList"></div>
-        <img id="DangGiaKiet" src="Hinh/DangGiaKiet.jpg" alt="Mô tả hình ảnh" style="display: none;">
-        <img id="QuocKiet" src="Hinh/QuocKiet.jpg" alt="Mô tả hình ảnh" style="display: none;">
-        <img id="HoangLong" src="Hinh/HoangLong.jpg" alt="Mô tả hình ảnh" style="display: none;">
+        <div id="imageContainer">
+            <img id="DangGiaKiet" src="Hinh/DangGiaKiet.jpg" alt="Đặng Gia Kiệt">
+            <img id="QuocKiet" src="Hinh/QuocKiet.jpg" alt="Phùng Quốc Kiệt">
+            <img id="HoangLong" src="Hinh/HoangLong.jpg" alt="Hồ Hoàng Long">
+        </div>
     </main>
     <script src="script.js"></script>
-   
-
     <section id="instructions">
         <h2>Hướng dẫn làm việc nhóm</h2>
         <p>Sinh viên làm việc nhóm 3 người</p>
@@ -28,10 +28,9 @@
         <ul>
             <li>Khởi tạo một kho Git mới</li>
             <li>Sử dụng lại mã nguồn trang web này, lưu trữ dưới tên colab_git.html</li>
-            <li>Tạo một nút ấn Press me! </li>
+            <li>Tạo một nút ấn Press me!</li>
             <li>Đẩy kho lưu trữ lên GitHub (nhánh chính: <code>main</code>)</li>
         </ul>
-
         <h3>Bước 2: Jerry - Thêm giao diện</h3>
         <ul>
             <li>Clone kho lưu trữ</li>
@@ -39,12 +38,11 @@
             <li>Chỉnh sửa <code>styles.css</code> để trang web này đẹp nhất có thể và commit thay đổi</li>
             <li>Đẩy nhánh lên và tạo pull request vào <code>main</code></li>
         </ul>
-
         <h3>Bước 3: Spike - Thêm tương tác</h3>
         <ul>
             <li>Clone kho lưu trữ</li>
             <li>Tạo một nhánh mới <code>feature_scripts</code></li>
-            <li>Chỉnh sửa <code>script.js</code> để thêm chức năng JavaScript sau khi ấn Press me thì hiển thị tên 3 thành viên nhóm </li>
+            <li>Chỉnh sửa <code>script.js</code> để thêm chức năng JavaScript sau khi ấn Press me thì hiển thị tên 3 thành viên nhóm</li>
             <li>Đẩy nhánh lên và tạo pull request vào <code>main</code></li>
         </ul>
     </section>
